@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WebOne - Info and Links</title>
+    </head>
+    <body class="bg-bg-light text-bg-dark dark:bg-bg-dark dark:text-text-light">
+        <div class="relative flex items-center w-full mt-[48px]">
+            <div
+                class="absolute bottom-20 inset-x-0 mx-auto w-full max-w-[420px] flex justify-between items-center px-4"
+            >
+                <a
+                    id="theme-toggle"
+                    class="flex justify-center items-center p-3 rounded-full border-1 border-border-light dark:border-border-dark transition cursor-pointer"
+                >
+                    <!-- Sun icon (light mode) -->
+                    <svg
+                        id="icon-sun"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        class="fill-text-dark dark:fill-text-light transition block"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12Zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM11 1h2v3h-2V1Zm0 19h2v3h-2v-3ZM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93ZM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121Zm2.121-14.85 1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121ZM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121ZM23 11v2h-3v-2h3ZM4 11v2H1v-2h3Z"
+                        />
+                    </svg>
+
+                    <!-- Moon icon (dark mode) -->
+                    <svg
+                        id="icon-moon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        class="fill-text-dark dark:fill-text-light transition hidden"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            d="M10 7a7 7 0 0 0 12 4.9v.1c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2h.1A6.98 6.98 0 0 0 10 7Zm-6 5a8 8 0 0 0 15.062 3.762A9 9 0 0 1 8.238 4.938 7.999 7.999 0 0 0 4 12Z"
+                        />
+                    </svg>
+                </a>
+            </div>
+
+            <div
+                class="h-[2px] bg-border-light dark:bg-border-dark flex-1"
+            ></div>
+
+            <!-- Logo Box -->
+            <div
+                class="p-[18px] border-2 border-border-light dark:border-border-dark flex justify-center items-center"
+            >
+                <img
+                    id="logo-light"
+                    src="/webone-logo-light.svg"
+                    alt="WebOne Logo Light"
+                    class="block"
+                />
+                <img
+                    id="logo-dark"
+                    src="/webone-logo-dark.svg"
+                    alt="WebOne Logo Dark"
+                    class="hidden"
+                />
+            </div>
+
+            <div
+                class="h-[2px] bg-border-light dark:bg-border-dark flex-1"
+            ></div>
+        </div>
+
+        <div class="px-4 max-w-[420px] mx-auto flex justify-center mt-6">
+            <!-- Description -->
+            <p
+                class="text-14 text-center text-bg-dark dark:text-text-light font-light"
+            >
+                با بیش از ۱۰ سال تجربه در طراحی و توسعه وب،<br /><strong
+                    >وب‌ وان</strong
+                >
+                هم‌مسیر کسب‌وکارهایی بوده که رویاهایشان را در فضای دیجیتال دنبال
+                می‌کنند. ما اینجاییم تا مسیر شما به قله‌های آنلاین را ساده‌تر،
+                سریع‌تر و مؤثرتر کنیم.
+            </p>
+        </div>
+        <div
+            class="px-4 max-w-[420px] mx-auto flex flex-col justify-center mt-6 mb-12 gap-y-3"
+        >
+            <!-- Buttons -->
+
+            <!-- Webone -->
+            <a href="#" class="p-[1px] bg-[#366BDE] rounded-xl group">
+                <div
+                    class="btn p-[11px] border-transparent bg-[#0B3796] dark:bg-[#1A1A1D] group-hover:bg-[#2156C9] dark:group-hover:bg-[#0B3796] transition"
+                >
+                    <img
+                        src="/images/webone.png"
+                        alt="WebOne Logo"
+                        class="w-12 h-12 flex-none"
+                    />
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-16 font-medium text-text-light">
+                            سایت رسمی وب‌وان
+                        </h3>
+                        <p
+                            class="text-12 font-light text-text-gray mt-1 truncate"
+                        >
+                            صفر تا صد طراحی سایت، اپ، سئو، مارکتینگ و …
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <!-- Webone SMS -->
+            <a href="#" class="p-[1px] bg-[#E1E1ED] rounded-xl group">
+                <div
+                    class="btn p-[11px] border-transparent bg-[#5F6A80] dark:bg-[#1A1A1D] group-hover:bg-[#667084] dark:group-hover:bg-[#45494F] transition"
+                >
+                    <img
+                        src="/images/webone-sms.png"
+                        alt="WebOne Logo"
+                        class="w-12 h-12 flex-none"
+                    />
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-16 font-medium text-text-light">
+                            سایت رسمی وب‌وان اس‌ام‌اس
+                        </h3>
+                        <p
+                            class="text-12 font-light text-text-light/80 dark:text-text-gray mt-1 truncate"
+                        >
+                            ارسال هوشمند، هدفمند پیامک برای هر کسب‌وکار
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <!-- magicqr -->
+            <a href="#" class="p-[1px] bg-[#6058A7] rounded-xl group">
+                <div
+                    class="btn p-[11px] border-transparent bg-[#554E99] dark:bg-[#1A1A1D] group-hover:bg-[#645DA6] dark:group-hover:bg-[#3D3588] transition"
+                >
+                    <img
+                        src="/images/magicqr.png"
+                        alt="WebOne Logo"
+                        class="w-12 h-12 flex-none"
+                    />
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-16 font-medium text-text-light">
+                            سایت رسمی مجیک QR
+                        </h3>
+                        <p
+                            class="text-12 font-light text-text-light/80 dark:text-text-gray mt-1 truncate"
+                        >
+                            کارت ویزیت هوشمند مجیک، اسکن کن اطلاعات بگیر
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <!-- Instagram -->
+            <a href="#" class="p-[1px] insta-gradient rounded-xl group">
+                <div
+                    class="btn p-[11px] dark:bg-[#1A1A1D] group-hover:bg-white/10 dark:group-hover:bg-[#5C0F2A] transition"
+                >
+                    <img
+                        src="/images/instagram.png"
+                        alt="WebOne Logo"
+                        class="w-12 h-12 flex-none"
+                    />
+                    <div class="flex-1 min-w-0">
+                        <h3
+                            class="text-16 font-medium bg-text-light dark:bg-[linear-gradient(45deg,_#FFE050_0%,_#FF9447_25%,_#FF477F_50%,_#FF66FD_75%,_#A685FF_100%)] bg-clip-text text-transparent"
+                        >
+                            اینستاگرام وب‌وان
+                        </h3>
+                        <p
+                            class="text-12 font-light text-text-light/80 dark:text-text-gray mt-1 truncate"
+                        >
+                            ویدیو‌های جدید و جذاب و تخفیف‌های شگفت انگیز
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <!-- Telegram -->
+            <a href="#" class="p-[1px] bg-[#32BBFF] rounded-xl group">
+                <div
+                    class="btn p-[11px] bg-[#0C76AA] dark:bg-[#1A1A1D] group-hover:bg-[#188BC3] dark:group-hover:bg-[#10516F] transition"
+                >
+                    <img
+                        src="/images/telegram.png"
+                        alt="WebOne Logo"
+                        class="w-12 h-12 flex-none"
+                    />
+                    <div class="flex-1 min-w-0">
+                        <h3
+                            class="text-16 font-medium text-text-light dark:text-[#32BBFF]"
+                        >
+                            کانال رسمی تلگرام وب‌وان
+                        </h3>
+                        <p
+                            class="text-12 font-light text-text-light/80 dark:text-text-gray mt-1 truncate"
+                        >
+                            رویداد‌های مهم و تخفیف‌های شگفت‌انگیز
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <!-- WhatsApp -->
+            <a href="#" class="p-[1px] bg-[#5AF675] rounded-xl group">
+                <div
+                    class="btn p-[11px] bg-[#149826] dark:bg-[#1A1A1D] group-hover:bg-[#1EAA30] dark:group-hover:bg-[#01540E] transition"
+                >
+                    <img
+                        src="/images/whatsapp.png"
+                        alt="WebOne Logo"
+                        class="w-12 h-12 flex-none"
+                    />
+                    <div class="flex-1 min-w-0">
+                        <h3
+                            class="text-16 font-medium text-text-light dark:text-[#5AF675]"
+                        >
+                            پشتیبانی آنلاین واتس‌اپ
+                        </h3>
+                        <p
+                            class="text-12 font-light text-text-light/80 dark:text-text-gray mt-1 truncate"
+                        >
+                            پشتیبانی ۲۴/۷ از طریق واتس‌اپ
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <!-- Phone -->
+            <a href="#" class="p-[1px] bg-[#55555E] rounded-xl group">
+                <div
+                    class="btn p-[11px] bg-[#3F3F49] group-hover:bg-[#555560] transition"
+                >
+                    <div class="flex-1 min-w-0">
+                        <h3
+                            class="text-20 font-medium text-text-light text-center"
+                            dir="ltr"
+                        >
+                            021 41658
+                        </h3>
+                        <p
+                            class="text-12 font-light text-text-gray mt-0 truncate text-center"
+                        >
+                            پشتیبانی ۲۴/۷ از طریق واتس‌اپ
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>

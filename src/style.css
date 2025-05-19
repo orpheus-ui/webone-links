@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Define a custom variant for dark mode */
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+    @font-face {
+        font-family: "YekanBakh";
+        font-style: normal;
+        font-weight: 100 950;
+        font-display: swap;
+        src: url("/fonts/YekanBakh-VF.woff2") format("woff2");
+        src: url("/fonts/YekanBakh-VF.woff") format("woff");
+    }
+}
+
+@theme {
+    /* colors */
+    --color-bg-dark: #131316;
+    --color-bg-light: #d4d8e5;
+    --color-border-dark: #262629;
+    --color-border-light: #babfcf;
+    --color-text-light: #e1e5ea;
+    --color-text-gray: #a5aab1;
+    /* fonts */
+    --text-12: 0.75rem;
+    --text-14: 0.875rem;
+    --text-16: 1rem;
+    --text-18: 1.125rem;
+    --text-20: 1.25rem;
+}
+
+body {
+    font-family: "YekanBakh", tahoma;
+}
+
+@layer components {
+    .btn {
+        @apply flex items-center gap-x-2.5 w-full rounded-xl transition;
+    }
+    .insta-gradient {
+        background: linear-gradient(
+            88deg,
+            #f8d948 0%,
+            #ef8132 25%,
+            #e9336a 50%,
+            #c127bf 75%,
+            #6e3cf1 100%
+        );
+    }
+}
