@@ -48,4 +48,14 @@ body {
             #6e3cf1 100%
         );
     }
+    .gholab-gradient {
+        background: linear-gradient(
+            88deg,
+            #22c5fe 0%,
+            #4269fb 25%,
+            #6e50ff 50%,
+            #e412d1 75%,
+            #eb3576 100%
+        );
+    }
 }
